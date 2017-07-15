@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
-[//]: # (Image References)
+[//]: # "Image References"
 
 [image1]: ./examples/undistort_output.png "Undistorted"
 [image2]: ./myoutputs/distortion_correction.png "Camera Correction"
@@ -28,7 +28,7 @@ The goals / steps of this project are the following:
 [image6]: ./myoutputs/histogram.png "Histogram for identifying Starting point of lane"
 [image7]: ./myoutputs/blind_search.png "Sliding Window method"
 [image8]: ./myoutputs/polynomial_fit.png "Fitting 2nd degree polynomial"
-[image9]: ./myoutputs/final.png "Before and Final Images"
+[image9]: ./myoutputs/final2.png "Before and Final Images"
 [video1]: ./project_video_output.mp4 "Video"
 
 ## [Rubric Points](https://review.udacity.com/#!/rubrics/571/view)
@@ -77,12 +77,12 @@ dst = np.float32(
 
 This resulted in the following source and destination points:
 
-| Source        | Destination   | 
-|:-------------:|:-------------:| 
-| 585, 460      | 320, 0        | 
-| 203, 720      | 320, 720      |
-| 1127, 720     | 960, 720      |
-| 695, 460      | 960, 0        |
+|  Source   | Destination |
+| :-------: | :---------: |
+| 585, 460  |   320, 0    |
+| 203, 720  |  320, 720   |
+| 1127, 720 |  960, 720   |
+| 695, 460  |   960, 0    |
 
 
 ![alt text][image3]
