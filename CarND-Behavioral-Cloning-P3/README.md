@@ -12,6 +12,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./images/architecture.png "Architecture"
 [image2]: ./images/dataset.png "Visualize data in sample set"
+[image3]: ./images/rungif.gif "Autonomous Mode"
 
 ---
 ### Files Submitted & Code Quality
@@ -76,4 +77,4 @@ I drove 4 to 6 laps in splits with different driving conditions. In one lap I wo
 
 I used generators with batch size of `256` and by using steering correction angle I could generate `training :  (46242,) validation :  (5139,)` samples
 
-![track1](https://github.com/sai-github/sdcnd/blob/master/CarND-Behavioral-Cloning-P3/images/gifrun.mp4)
+![alt text][image3]
