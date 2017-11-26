@@ -1,12 +1,6 @@
----
-output: pdf_document
----
-#**Finding Lane Lines on the Road** 
 
-
+**Finding Lane Lines on the Road** 
 ---
-
-**Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
 \
@@ -24,7 +18,7 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-###1. Pipeline discription
+#### 1. Pipeline discription
 
 Initially the color image is converted into grayscale image. Then a Gaussian Noise Kernal is applied 
 on the grayscale image to decrease gradient in color so as to remove unwanted edge detection for later 
@@ -49,14 +43,13 @@ not identified care is taking by not drawing any line for that image.
 
 
 
-###2. Identify potential shortcomings with your current pipeline
+#### 2. Identify potential shortcomings with your current pipeline
 
 As we are drawing maximum of 2 lines with extrapolation identification of cured lanes is not possible.
 Due to inefficient parameter tuning identifying lanes with different colors is introducing noise.
 
 
-###3. Suggest possible improvements to your pipeline
+#### 3. Suggest possible improvements to your pipeline
 
 Possible lane marking as identified from hough transform and some sort of curve fitting can be done for identifying lanes. Memory of lane marking from previous images can be used while processing next image as
 we are sure from before image that there was a line marking at that location.
-
